@@ -11,6 +11,12 @@ body {
   font-size: 13px;
   line-height: 18px;
 }
+body a {
+  text-decoration: none;
+}
+body a:hover {
+  text-decoration-color: red;
+}
 
 header {
   background: red;
@@ -150,6 +156,18 @@ section .news__tag {
 
 .vs__bottom {
   border-bottom: 5px solid #666;
+}
+
+.section__more-stories img {
+  width: 100px;
+  height: 100px;
+}
+.section__more-stories h3 {
+  font-size: 20px;
+  font-weight: bold;
+}
+.section__more-stories h5 {
+  font-size: small;
 }
 
 footer {

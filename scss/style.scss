@@ -25,6 +25,12 @@ body {
     background-color: #f4f5f6;
     font-size: 13px;
     line-height: 18px;
+    a{
+      text-decoration: none;
+      &:hover {
+          text-decoration-color: red;
+      }  
+    }
 }
 header{
     background: red;    
@@ -150,6 +156,20 @@ section {
 }
 .vs__bottom {
     border-bottom: 5px solid #666;
+}
+
+.section__more-stories{
+   img{
+      width: 100px;
+      height: 100px; 
+   }
+   h3 {
+       font-size: 20px;
+       font-weight: bold;
+       } 
+       h5 {
+           font-size: small;
+       }
 }
 
 footer {
