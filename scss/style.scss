@@ -4,7 +4,7 @@
     align-items: center;
 }
 @mixin news__tag($color:red) {
-    background-color: lightgray;
+    background-color: rgb(238, 238, 238);
     color: $color;
     text-transform: uppercase;
     position: relative;
@@ -29,10 +29,10 @@ body {
 header{
     background: red;    
     img{
-        width: 100px;
+        width: 120px;
     }
     button {
-        font-size: 15px;
+        font-size: 20px;
         font-weight: bold;
         border-radius: 30px;
         text-transform: uppercase;
@@ -73,6 +73,8 @@ article {
          position: relative;
      }
      .top__story-header a {
+         font-size: 20px;
+         line-height: 0.2px;
          font-weight: bold;
         color: black;
         text-decoration: none;
@@ -81,6 +83,73 @@ article {
          @include news__tag();
      }
      
+}
+section {
+    width: 90%;
+
+     .section__header {
+         text-transform: uppercase;
+         font-size: large;
+         color: #666;
+         font-weight: bolder;
+     }
+     img {
+        width: 100%;
+     }
+
+     .top__story {
+         position: relative;
+     }
+     .top__story-photo {
+         position: relative;
+     }
+     .top__story-header a {
+         font-size: 20px;
+         font-weight: bold;
+        color: black;
+        text-decoration: none;
+        &:hover {
+            text-decoration: red;
+        }
+     }
+     .news__tag {
+         @include news__tag();
+     }
+}
+
+.debate__header {
+    width: 100%;
+    border-bottom: 5px solid #666;
+     .header__title {
+         text-transform: uppercase;
+         font-size: large;
+         color: #666;
+         font-weight: bolder;
+         
+     }
+}
+.debate__details {
+    font-size: 17px;
+    font-family: "Roboto Condensed", sans-serif;
+    line-height: 21px;
+    font-weight: bold;
+}
+.vs {
+    text-align: center;
+    position: relative;
+    border-radius: 50%;
+    z-index: 1;
+    width: 30px;
+    height: 30px;
+    font-size: larger;
+    color: #d6d6d6;
+    background-color: black;    
+    font-weight: bold;
+    left: 46%;
+    top: 50%;    
+}
+.vs__bottom {
+    border-bottom: 5px solid #666;
 }
 
 footer {
