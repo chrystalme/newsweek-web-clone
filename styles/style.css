@@ -5,7 +5,8 @@ header img {
   width: 100px;
 }
 header button {
-  font-size: 10px;
+  font-size: 15px;
+  font-weight: bold;
   border-radius: 30px;
   text-transform: uppercase;
 }
@@ -24,6 +25,16 @@ header .header__login {
   display: none;
 }
 
+footer img {
+  width: 250px;
+}
+footer .copyright {
+  font-size: 12px;
+  line-height: 12px;
+  text-transform: uppercase;
+  color: #666;
+  margin-bottom: 12px;
+}
 @media screen and (min-width: 768px) {
   header .header__login {
     display: block;

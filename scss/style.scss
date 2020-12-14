@@ -9,7 +9,8 @@ header{
         width: 100px;
     }
     button {
-        font-size: 10px;
+        font-size: 15px;
+        font-weight: bold;
         border-radius: 30px;
         text-transform: uppercase;
         i {
@@ -29,7 +30,21 @@ header{
     }
     
 }
-
+footer {
+    img {
+        width: 250px;
+    }
+    .copyright {
+        font-size: 12px;
+        line-height: 12px;
+        text-transform: uppercase;
+        color: #666;
+        margin-bottom: 12px;
+    }
+    i {
+        margin: 5px;
+    }
+}
 @media screen and (min-width: 768px){
     header{
         .header__login{
