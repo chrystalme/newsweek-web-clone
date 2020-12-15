@@ -285,6 +285,27 @@ section {
     }
 }
     
+.section__newsletter {
+    .section_newsletter-header {
+        color: red;
+        text-transform: uppercase;
+        font-size: large;
+        font-weight: bold;
+    }
+    span{
+        color: black;
+        text-transform: uppercase;
+        font-weight: bold;
+        font-size: large;
+    }
+    img {
+        height: 200px;
+    }
+    p{
+        text-align: center;
+        font-size: medium;
+    }
+}
 
 footer {
     position: relative;
