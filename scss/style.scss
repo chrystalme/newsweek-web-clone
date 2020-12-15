@@ -195,6 +195,29 @@ section {
         bottom: 22px;
         padding: auto;
     }
+
+    .summary {
+        tab-size: 40px;
+        font-weight: bold;
+    }
+}
+.sign__up {
+    width: 70%;
+    margin: auto;
+    font-weight: bold;
+    font-size: large;
+    text-transform: uppercase;
+    .icon {
+        background-color: red;
+        width: 50px;
+        height: 40px;
+        padding: 10px;
+        text-align: center;
+        font-family: 'Roboto Condensed' sans-serif;
+        font-size: larger;
+        font-weight: bolder;
+        color: white;
+    }
 }
 
 footer {
