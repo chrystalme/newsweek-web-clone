@@ -281,6 +281,26 @@ section .news__tag {
   font-weight: bold;
 }
 
+.section__newsletter .section_newsletter-header {
+  color: red;
+  text-transform: uppercase;
+  font-size: large;
+  font-weight: bold;
+}
+.section__newsletter span {
+  color: black;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: large;
+}
+.section__newsletter img {
+  height: 200px;
+}
+.section__newsletter p {
+  text-align: center;
+  font-size: medium;
+}
+
 footer {
   position: relative;
   bottom: 0;
