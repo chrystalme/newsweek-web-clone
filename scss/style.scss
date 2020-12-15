@@ -47,6 +47,7 @@ header{
         }
     }
     i {
+        font-size: 20px;
         opacity: 0.75;
         color:  bisque;
     }
@@ -56,6 +57,9 @@ header{
     }
     .header__login {
         display: none;
+    }
+    .header_btn{
+        font-size: medium;
     }
     
 }
@@ -284,6 +288,25 @@ section {
         font-weight: bold;       
     }
 }
+.section__us {
+    width: 100%;
+
+    .section__us-header {
+        color: red;
+        text-transform: uppercase;
+        font-size: large;
+        font-weight: bold;
+    } 
+    h3 {
+        line-height: 20px;
+    }
+    .section__us-sub{
+        img{
+            width: 100%;
+
+        }
+    }
+}
     
 .section__newsletter {
     .section_newsletter-header {
@@ -336,7 +359,13 @@ footer {
 @media screen and (min-width: 768px){
     header{
         .header__login{
+            font-size: 20px;
+            font-weight: bold;
             display: block;
+            &:hover{
+                text-decoration: none;
+                color: #f4f5f6;;
+            }
         }
         .fa-user {
             display: none;

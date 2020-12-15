@@ -11,24 +11,35 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="styles/style.css">
-    <title></title>g
+    <title></title>
 </head>
 
 <body>
-    <header class="container-fluid d-flex justify-content-between align-content-center">
+    <header class="container-fluid d-flex justify-content-between align-content-center pt-2">
         <div class="header__mobile"><a href="#">
-                <img class="img-fluids pt-2" src="images/Newsweek-logo-white.jpg" alt="Newsweek logo">
+                <img class="img-fluids " src="images/Newsweek-logo-white.jpg" alt="Newsweek logo">
             </a></div>
-        <div class="d-flex pt-2">
+        <div class="d-flex justify-content-center">
             <a href="#"><i class="fas fa-user p-2"></i><span class="header__login p-2">Login</span></a>
-            <button class="btn-warning mb-3" type="search" value="Subscribe" name="subscribe">Subscribe <i
-                    class="fas fa-chevron-right"></i></button>
+            <button class="header_btn btn-warning mb-3 px-3 py-1 border-0" type="search" value="Subscribe"
+                name="subscribe">Subscribe <i class="fas fa-chevron-right"></i></button>
             <a href="#"><i class="fas fa-bars  p-2"></i></a>
         </div>
-
     </header>
-    <main>
-        <article class="container mt-4">
+    <main class="container">
+        <div class="row">
+            <div class="col-5 order-2">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Consequuntur, omnis neque suscipit natus deserunt eaque. Iusto quasi, cum ducimus quaerat,
+                obcaecati blanditiis maxime id similique impedit aspernatur aliquam itaque fugit!
+            </div>
+        
+        <div class="col-7 order-1">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Consequuntur, omnis neque suscipit natus deserunt eaque. Iusto quasi, cum ducimus quaerat,
+            obcaecati blanditiis maxime id similique impedit aspernatur aliquam itaque fugit!
+        </div>
+    </div>
+        <article class="container mt-4 ">
             <div class="">
                 <div class="article__header mb-3"> Top story</div>
                 <div class="top__story">
@@ -581,7 +592,7 @@
             <span class="magazine_date">December 18 issue</span>
         </article>
 
-        <section class="section__features container">
+        <section class="section__features container border-bottom pb-3">
             <div class="header__features p-3">
                 <a class="" href="#">see all features &gt;</a>
             </div>
@@ -676,10 +687,11 @@
                 </div>
                 <div class="top__story-header">
                     <h3><a href="#">
-                        COVID Vaccine Passports Announced by Israel in World First
+                            COVID Vaccine Passports Announced by Israel in World First
                         </a></h3>
                     <div class="news__summary">
-                        The passport would allow Israeli residents to travel abroad without having to be tested for the coronavirus, according to Israeli Minister of Health Yuli Edelstein.
+                        The passport would allow Israeli residents to travel abroad without having to be tested for the
+                        coronavirus, according to Israeli Minister of Health Yuli Edelstein.
                     </div>
                 </div>
             </div>
@@ -714,10 +726,11 @@
                 </div>
                 <div class="top__story-header">
                     <h3><a href="#">
-                        COVID Vaccine Passports Announced by Israel in World First
+                            COVID Vaccine Passports Announced by Israel in World First
                         </a></h3>
                     <div class="news__summary">
-                        The passport would allow Israeli residents to travel abroad without having to be tested for the coronavirus, according to Israeli Minister of Health Yuli Edelstein.
+                        The passport would allow Israeli residents to travel abroad without having to be tested for the
+                        coronavirus, according to Israeli Minister of Health Yuli Edelstein.
                     </div>
                 </div>
             </div>
@@ -751,10 +764,11 @@
                 </div>
                 <div class="top__story-header">
                     <h3><a href="#">
-                        COVID Vaccine Passports Announced by Israel in World First
+                            COVID Vaccine Passports Announced by Israel in World First
                         </a></h3>
                     <div class="news__summary">
-                        The passport would allow Israeli residents to travel abroad without having to be tested for the coronavirus, according to Israeli Minister of Health Yuli Edelstein.
+                        The passport would allow Israeli residents to travel abroad without having to be tested for the
+                        coronavirus, according to Israeli Minister of Health Yuli Edelstein.
                     </div>
                 </div>
             </div>
@@ -768,75 +782,419 @@
                 </div>
                 <div class="top__story-header">
                     <h3><a href="#">
-                        COVID Vaccine Passports Announced by Israel in World First
+                            COVID Vaccine Passports Announced by Israel in World First
                         </a></h3>
                     <div class="news__summary">
-                        The passport would allow Israeli residents to travel abroad without having to be tested for the coronavirus, according to Israeli Minister of Health Yuli Edelstein.
+                        The passport would allow Israeli residents to travel abroad without having to be tested for the
+                        coronavirus, according to Israeli Minister of Health Yuli Edelstein.
                     </div>
                 </div>
             </div>
         </section>
-        <section class="section__us container">
-            <div class="section__us-header">U.S.</div>
-            <div class="section__us">
-           <div class="immage-no-1">
-               <img src="images/img1.jpg" alt="...">
-           </div>
-           <div class="top__story-header">
-            <h3><a href="#">
-                PS5 Restock Updates for Best Buy, Amazon, Belk, PlayStation Direct and More
-                </a></h3>
+        <section class="section__us container pt-2">
 
-        </div>
+            <div class="section__us-header my-2">U.S.</div>
 
-        <div class="immage-no-1">
-            <img src="images/img1.jpg" alt="...">
-        </div>
-        <div class="top__story-header">
-         <h3><a href="#">
-             PS5 Restock Updates for Best Buy, Amazon, Belk, PlayStation Direct and More
-             </a></h3>
+            <div class="section__us-details">
+                <div>
+                    <div class="immage-no-1">
+                        <img src="images/img1.jpg" alt="...">
+                    </div>
+                    <div class="top__story-header">
+                        <h3 class="my-3"><a class="" href="#">
+                                PS5 Restock Updates for Best Buy, Amazon, Belk, PlayStation Direct and More
+                            </a>
+                        </h3>
+                    </div>
+                </div>
 
-     </div>
-     <div class="d-flex align-content-center mt-2 border-bottom pb-3">
-        <div class="">
-            <a href="#"><img src="images/u.s.forests.jpg" alt=" First
-                lady-elect Jill Biden"></a>
-        </div>
-        <div class="pl-3">
-            <h3><a class="text-decoration-none text-dark " href="#">
-                Florida Man Foots Utility Bill for 114 Neighbors Ahead of Pandemic Christmas</a>
-            </h3>
-        </div>
-    </div>
-    <div class="d-flex align-content-center mt-2 border-bottom pb-3">
-        <div class="">
-            <a href="#"><img src="images/u.s.forests.jpg" alt=" First
-                lady-elect Jill Biden"></a>
-        </div>
-        <div class="pl-3">
-            <h3><a class="text-decoration-none text-dark " href="#">
-                Florida Man Foots Utility Bill for 114 Neighbors Ahead of Pandemic Christmas</a>
-            </h3>
-        </div>
-    </div>
-    <div class="d-flex align-content-center mt-2 border-bottom pb-3">
-        <div class="">
-            <a href="#"><img src="images/u.s.forests.jpg" alt=" First
-                lady-elect Jill Biden"></a>
-        </div>
-        <div class="pl-3">
-            <h3><a class="text-decoration-none text-dark " href="#">
-                Florida Man Foots Utility Bill for 114 Neighbors Ahead of Pandemic Christmas</a>
-            </h3>
-        </div>
-    </div>
+                <div>
+                    <div class="immage-no-1">
+                        <img src="images/img1.jpg" alt="...">
+                    </div>
+                    <div class="top__story-header">
+                        <h3 class="my-3"><a href="#">
+                                PS5 Restock Updates for Best Buy, Amazon, Belk, PlayStation Direct and More
+                            </a></h3>
+
+                    </div>
+                </div>
+                <div class="section__us-sub">
+                    <div class="d-flex align-content-center mt-2 border-bottom pb-3">
+                        <div class="">
+                            <a href="#"><img src="images/u.s.forests.jpg" alt=" First
+                    lady-elect Jill Biden"></a>
+                        </div>
+                        <div class="pl-3">
+                            <h5><a class="text-dark " href="#">
+                                    Florida Man Foots Utility Bill for 114 Neighbors Ahead of Pandemic Christmas</a>
+                            </h5>
+                        </div>
+                    </div>
+                    <div class="d-flex align-content-center mt-2 border-bottom pb-3">
+                        <div class="">
+                            <a href="#"><img src="images/u.s.forests.jpg" alt=" First
+                    lady-elect Jill Biden"></a>
+                        </div>
+                        <div class="pl-3">
+                            <h5><a class="text-decoration-none text-dark " href="#">
+                                    Florida Man Foots Utility Bill for 114 Neighbors Ahead of Pandemic Christmas</a>
+                            </h5>
+                        </div>
+                    </div>
+                    <div class="d-flex align-content-center mt-2 border-bottom pb-3">
+                        <div class="">
+                            <a href="#"><img src="images/u.s.forests.jpg" alt=" First
+                        lady-elect Jill Biden"></a>
+                        </div>
+                        <div class="pl-3">
+                            <h5><a class="text-decoration-none text-dark " href="#">
+                                    Florida Man Foots Utility Bill for 114 Neighbors Ahead of Pandemic Christmas</a>
+                            </h5>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <section class="section__us container pt-2">
+
+            <div class="section__us-header my-2">World</div>
+
+            <div class="section__us-details">
+                <div>
+                    <div class="immage-no-1">
+                        <img src="images/img1.jpg" alt="...">
+                    </div>
+                    <div class="top__story-header">
+                        <h3 class="my-3"><a class="" href="#">
+                                PS5 Restock Updates for Best Buy, Amazon, Belk, PlayStation Direct and More
+                            </a>
+                        </h3>
+                    </div>
+                </div>
+
+                <div>
+                    <div class="immage-no-1">
+                        <img src="images/img1.jpg" alt="...">
+                    </div>
+                    <div class="top__story-header">
+                        <h3 class="my-3"><a href="#">
+                                PS5 Restock Updates for Best Buy, Amazon, Belk, PlayStation Direct and More
+                            </a></h3>
+
+                    </div>
+                </div>
+                <div class="section__us-sub">
+                    <div class="d-flex align-content-center mt-2 border-bottom pb-3">
+                        <div class="">
+                            <a href="#"><img src="images/u.s.forests.jpg" alt=" First
+                    lady-elect Jill Biden"></a>
+                        </div>
+                        <div class="pl-3">
+                            <h5><a class="text-dark " href="#">
+                                    Florida Man Foots Utility Bill for 114 Neighbors Ahead of Pandemic Christmas</a>
+                            </h5>
+                        </div>
+                    </div>
+                    <div class="d-flex align-content-center mt-2 border-bottom pb-3">
+                        <div class="">
+                            <a href="#"><img src="images/u.s.forests.jpg" alt=" First
+                    lady-elect Jill Biden"></a>
+                        </div>
+                        <div class="pl-3">
+                            <h5><a class="text-decoration-none text-dark " href="#">
+                                    Florida Man Foots Utility Bill for 114 Neighbors Ahead of Pandemic Christmas</a>
+                            </h5>
+                        </div>
+                    </div>
+                    <div class="d-flex align-content-center mt-2 border-bottom pb-3">
+                        <div class="">
+                            <a href="#"><img src="images/u.s.forests.jpg" alt=" First
+                        lady-elect Jill Biden"></a>
+                        </div>
+                        <div class="pl-3">
+                            <h5><a class="text-decoration-none text-dark " href="#">
+                                    Florida Man Foots Utility Bill for 114 Neighbors Ahead of Pandemic Christmas</a>
+                            </h5>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+        <section class="section__us container pt-2">
+
+            <div class="section__us-header my-2">Business</div>
+
+            <div class="section__us-details">
+                <div>
+                    <div class="immage-no-1">
+                        <img src="images/img1.jpg" alt="...">
+                    </div>
+                    <div class="top__story-header">
+                        <h3 class="my-3"><a class="" href="#">
+                                PS5 Restock Updates for Best Buy, Amazon, Belk, PlayStation Direct and More
+                            </a>
+                        </h3>
+                    </div>
+                </div>
+
+                <div>
+                    <div class="immage-no-1">
+                        <img src="images/img1.jpg" alt="...">
+                    </div>
+                    <div class="top__story-header">
+                        <h3 class="my-3"><a href="#">
+                                PS5 Restock Updates for Best Buy, Amazon, Belk, PlayStation Direct and More
+                            </a></h3>
+
+                    </div>
+                </div>
+                <div class="section__us-sub">
+                    <div class="d-flex align-content-center mt-2 border-bottom pb-3">
+                        <div class="">
+                            <a href="#"><img src="images/u.s.forests.jpg" alt=" First
+                    lady-elect Jill Biden"></a>
+                        </div>
+                        <div class="pl-3">
+                            <h5><a class="text-dark " href="#">
+                                    Florida Man Foots Utility Bill for 114 Neighbors Ahead of Pandemic Christmas</a>
+                            </h5>
+                        </div>
+                    </div>
+                    <div class="d-flex align-content-center mt-2 border-bottom pb-3">
+                        <div class="">
+                            <a href="#"><img src="images/u.s.forests.jpg" alt=" First
+                    lady-elect Jill Biden"></a>
+                        </div>
+                        <div class="pl-3">
+                            <h5><a class="text-decoration-none text-dark " href="#">
+                                    Florida Man Foots Utility Bill for 114 Neighbors Ahead of Pandemic Christmas</a>
+                            </h5>
+                        </div>
+                    </div>
+                    <div class="d-flex align-content-center mt-2 border-bottom pb-3">
+                        <div class="">
+                            <a href="#"><img src="images/u.s.forests.jpg" alt=" First
+                        lady-elect Jill Biden"></a>
+                        </div>
+                        <div class="pl-3">
+                            <h5><a class="text-decoration-none text-dark " href="#">
+                                    Florida Man Foots Utility Bill for 114 Neighbors Ahead of Pandemic Christmas</a>
+                            </h5>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <section class="section__us container pt-2">
+
+            <div class="section__us-header my-2">Tech &amp; Science</div>
+
+            <div class="section__us-details">
+                <div>
+                    <div class="immage-no-1">
+                        <img src="images/img1.jpg" alt="...">
+                    </div>
+                    <div class="top__story-header">
+                        <h3 class="my-3"><a class="" href="#">
+                                PS5 Restock Updates for Best Buy, Amazon, Belk, PlayStation Direct and More
+                            </a>
+                        </h3>
+                    </div>
+                </div>
+
+                <div>
+                    <div class="immage-no-1">
+                        <img src="images/img1.jpg" alt="...">
+                    </div>
+                    <div class="top__story-header">
+                        <h3 class="my-3"><a href="#">
+                                PS5 Restock Updates for Best Buy, Amazon, Belk, PlayStation Direct and More
+                            </a></h3>
+
+                    </div>
+                </div>
+                <div class="section__us-sub">
+                    <div class="d-flex align-content-center mt-2 border-bottom pb-3">
+                        <div class="">
+                            <a href="#"><img src="images/u.s.forests.jpg" alt=" First
+                    lady-elect Jill Biden"></a>
+                        </div>
+                        <div class="pl-3">
+                            <h5><a class="text-dark " href="#">
+                                    Florida Man Foots Utility Bill for 114 Neighbors Ahead of Pandemic Christmas</a>
+                            </h5>
+                        </div>
+                    </div>
+                    <div class="d-flex align-content-center mt-2 border-bottom pb-3">
+                        <div class="">
+                            <a href="#"><img src="images/u.s.forests.jpg" alt=" First
+                    lady-elect Jill Biden"></a>
+                        </div>
+                        <div class="pl-3">
+                            <h5><a class="text-decoration-none text-dark " href="#">
+                                    Florida Man Foots Utility Bill for 114 Neighbors Ahead of Pandemic Christmas</a>
+                            </h5>
+                        </div>
+                    </div>
+                    <div class="d-flex align-content-center mt-2 border-bottom pb-3">
+                        <div class="">
+                            <a href="#"><img src="images/u.s.forests.jpg" alt=" First
+                        lady-elect Jill Biden"></a>
+                        </div>
+                        <div class="pl-3">
+                            <h5><a class="text-decoration-none text-dark " href="#">
+                                    Florida Man Foots Utility Bill for 114 Neighbors Ahead of Pandemic Christmas</a>
+                            </h5>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <section class="section__us container pt-2">
+
+            <div class="section__us-header my-2">Culture</div>
+
+            <div class="section__us-details">
+                <div>
+                    <div class="immage-no-1">
+                        <img src="images/img1.jpg" alt="...">
+                    </div>
+                    <div class="top__story-header">
+                        <h3 class="my-3"><a class="" href="#">
+                                PS5 Restock Updates for Best Buy, Amazon, Belk, PlayStation Direct and More
+                            </a>
+                        </h3>
+                    </div>
+                </div>
+
+                <div>
+                    <div class="immage-no-1">
+                        <img src="images/img1.jpg" alt="...">
+                    </div>
+                    <div class="top__story-header">
+                        <h3 class="my-3"><a href="#">
+                                PS5 Restock Updates for Best Buy, Amazon, Belk, PlayStation Direct and More
+                            </a></h3>
+
+                    </div>
+                </div>
+                <div class="section__us-sub">
+                    <div class="d-flex align-content-center mt-2 border-bottom pb-3">
+                        <div class="">
+                            <a href="#"><img src="images/u.s.forests.jpg" alt=" First
+                    lady-elect Jill Biden"></a>
+                        </div>
+                        <div class="pl-3">
+                            <h5><a class="text-dark " href="#">
+                                    Florida Man Foots Utility Bill for 114 Neighbors Ahead of Pandemic Christmas</a>
+                            </h5>
+                        </div>
+                    </div>
+                    <div class="d-flex align-content-center mt-2 border-bottom pb-3">
+                        <div class="">
+                            <a href="#"><img src="images/u.s.forests.jpg" alt=" First
+                    lady-elect Jill Biden"></a>
+                        </div>
+                        <div class="pl-3">
+                            <h5><a class="text-decoration-none text-dark " href="#">
+                                    Florida Man Foots Utility Bill for 114 Neighbors Ahead of Pandemic Christmas</a>
+                            </h5>
+                        </div>
+                    </div>
+                    <div class="d-flex align-content-center mt-2 border-bottom pb-3">
+                        <div class="">
+                            <a href="#"><img src="images/u.s.forests.jpg" alt=" First
+                        lady-elect Jill Biden"></a>
+                        </div>
+                        <div class="pl-3">
+                            <h5><a class="text-decoration-none text-dark " href="#">
+                                    Florida Man Foots Utility Bill for 114 Neighbors Ahead of Pandemic Christmas</a>
+                            </h5>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <section class="section__us container pt-2">
+
+            <div class="section__us-header my-2">Sports.</div>
+
+            <div class="section__us-details">
+                <div>
+                    <div class="immage-no-1">
+                        <img src="images/img1.jpg" alt="...">
+                    </div>
+                    <div class="top__story-header">
+                        <h3 class="my-3"><a class="" href="#">
+                                PS5 Restock Updates for Best Buy, Amazon, Belk, PlayStation Direct and More
+                            </a>
+                        </h3>
+                    </div>
+                </div>
+
+                <div>
+                    <div class="immage-no-1">
+                        <img src="images/img1.jpg" alt="...">
+                    </div>
+                    <div class="top__story-header">
+                        <h3 class="my-3"><a href="#">
+                                PS5 Restock Updates for Best Buy, Amazon, Belk, PlayStation Direct and More
+                            </a></h3>
+
+                    </div>
+                </div>
+                <div class="section__us-sub">
+                    <div class="d-flex align-content-center mt-2 border-bottom pb-3">
+                        <div class="">
+                            <a href="#"><img src="images/u.s.forests.jpg" alt=" First
+                    lady-elect Jill Biden"></a>
+                        </div>
+                        <div class="pl-3">
+                            <h5><a class="text-dark " href="#">
+                                    Florida Man Foots Utility Bill for 114 Neighbors Ahead of Pandemic Christmas</a>
+                            </h5>
+                        </div>
+                    </div>
+                    <div class="d-flex align-content-center mt-2 border-bottom pb-3">
+                        <div class="">
+                            <a href="#"><img src="images/u.s.forests.jpg" alt=" First
+                    lady-elect Jill Biden"></a>
+                        </div>
+                        <div class="pl-3">
+                            <h5><a class="text-decoration-none text-dark " href="#">
+                                    Florida Man Foots Utility Bill for 114 Neighbors Ahead of Pandemic Christmas</a>
+                            </h5>
+                        </div>
+                    </div>
+                    <div class="d-flex align-content-center mt-2 border-bottom pb-3">
+                        <div class="">
+                            <a href="#"><img src="images/u.s.forests.jpg" alt=" First
+                        lady-elect Jill Biden"></a>
+                        </div>
+                        <div class="pl-3">
+                            <h5><a class="text-decoration-none text-dark " href="#">
+                                    Florida Man Foots Utility Bill for 114 Neighbors Ahead of Pandemic Christmas</a>
+                            </h5>
+                        </div>
+                    </div>
+                </div>
+
             </div>
         </section>
 
         <section class="container section__newsletter">
             <div class="section__subscribe">
-                <div class="section_newsletter-header mb-2">
+                <div class="section_newsletter-header my-3">
                     Subscribe
                 </div>
                 <div class="jumbotron d-flex flex-column justify-content-center align-items-center">
@@ -849,7 +1207,7 @@
                         <span>In-depth Stories You Don't See Elsewhere About Topics You Want to Read!</span>
                         <p class="mt-3">All Access + Weekly Delivery.
                             Choose A Membership That's Perfect for You!</p>
-                            <button style="width: 40%;" class="btn btn-danger">Subscribe &gt;</button>
+                        <button style="width: 40%;" class="btn btn-danger">Subscribe &gt;</button>
                     </div>
                 </div>
 
