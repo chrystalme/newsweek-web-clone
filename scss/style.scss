@@ -91,7 +91,7 @@ article {
      }
      .news__tag {
          @include news__tag();
-     }
+     }    
      
 }
 section {
@@ -330,6 +330,14 @@ section {
     }
 }
 
+.my__turn-bottom {
+    display: block;
+}
+.my__turn-top {
+    display: none;
+}
+
+
 footer {
     position: relative;
     bottom: 0;
@@ -383,4 +391,35 @@ footer {
             height: 250px;
         }
     }
+    .my__turn-bottom {
+        display: none;
+    }
+    .my__turn-top {
+        display: block;
+    }
+    .culture__story {
+        img {
+            width: 100px;
+        }
+        .news__tag {
+            background-color: rgb(70, 162, 168);
+            color: black;
+            text-transform: uppercase;
+            position: relative;
+            font-weight: bold;
+            line-height: 10px;
+            font-size: 14px;
+            left: 0;
+            bottom: 33px;
+            padding: auto;
+        }
+    }
+
+    .my__turn-details {
+        img{
+            width: 100px;
+            height: 100px;
+        }
+           }
+    
 }
