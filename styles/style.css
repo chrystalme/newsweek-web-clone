@@ -50,7 +50,7 @@ header .header_btn {
 }
 
 article {
-  width: 90%;
+  width: 100%;
 }
 article .article__header {
   text-transform: uppercase;
@@ -87,7 +87,7 @@ article .news__tag {
 }
 
 section {
-  width: 90%;
+  width: 100%;
 }
 section .section__header {
   text-transform: uppercase;
@@ -346,6 +346,14 @@ footer i {
 }
 
 @media screen and (min-width: 768px) {
+  section {
+    width: 100%;
+  }
+
+  article {
+    width: 100%;
+  }
+
   header .header__login {
     font-size: 20px;
     font-weight: bold;
@@ -357,6 +365,11 @@ footer i {
   }
   header .fa-user {
     display: none;
+  }
+
+  .feature__story img {
+    width: 280px;
+    height: 250px;
   }
 }
 
