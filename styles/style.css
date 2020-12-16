@@ -369,6 +369,13 @@ footer i {
   font-size: 14px;
 }
 
+.news-letter-img {
+  width: 150px;
+  position: relative;
+  left: -105px;
+  top: 20px;
+}
+
 @media screen and (min-width: 768px) {
   section {
     width: 100%;
@@ -433,6 +440,14 @@ footer i {
 
   .feature__news span {
     font-size: small;
+  }
+
+  .news-letter-img {
+    width: 200px;
+    height: 200px;
+    position: relative;
+    top: -180px;
+    left: 50px;
   }
 }
 
