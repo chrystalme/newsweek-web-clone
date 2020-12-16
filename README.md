@@ -55,8 +55,8 @@ To get a local copy up and running follow these simple example steps.
 
 👤 **Author2**
 
-- GitHub: [@githubhandle](https://github.com/sohaibya)
-- Twitter: [@twitterhandle](https://twitter.com/sohaib)
+- GitHub: [@sohaibya](https://github.com/sohaibya)
+- Twitter: [Sohaib](https://twitter.com/sohaib)
 
 ## Acknowledgments
 
