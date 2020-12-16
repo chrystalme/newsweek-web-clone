@@ -336,6 +336,14 @@ section {
 .my__turn-top {
     display: none;
 }
+.section__opinion {
+    .header__title {
+        text-transform: uppercase;
+        font-size: large;
+        color: #666;
+        font-weight: bolder; 
+    }
+}
 
 
 footer {
@@ -387,7 +395,7 @@ footer {
     }
     .feature__story{
         img{
-            width: 280px;
+            width: 100%;
             height: 250px;
         }
     }
@@ -399,7 +407,7 @@ footer {
     }
     .culture__story {
         img {
-            width: 100px;
+            width: 100%;
         }
         .news__tag {
             background-color: rgb(70, 162, 168);
@@ -416,8 +424,11 @@ footer {
     }
 
     .my__turn-details {
+        text-align: center;
+        width: (100% / 3);
+        margin-right: 5px;
         img{
-            width: 100px;
+            width: 150px;
             height: 100px;
         }
            }
