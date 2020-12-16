@@ -55,19 +55,8 @@ To get a local copy up and running follow these simple example steps.
 
 👤 **Author2**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/linkedinhandle)
-
-## 🤝 Contributing
-
-Contributions, issues, and feature requests are welcome!
-
-Feel free to check the [issues page](issues/).
-
-## Show your support
-
-Give a ⭐️ if you like this project!
+- GitHub: [@githubhandle](https://github.com/sohaibya)
+- Twitter: [@twitterhandle](https://twitter.com/sohaib)
 
 ## Acknowledgments
 
@@ -76,5 +65,4 @@ Give a ⭐️ if you like this project!
 - etc
 
 ## 📝 License
-
-This project is [MIT](https://mit-license.org/) licensed.
+This project is [MIT](lic.url) licensed.
