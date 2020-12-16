@@ -11,9 +11,12 @@ Additional description about the project and its features.
 
 ## Built With
 
-- Major languages
-- Frameworks
-- Technologies used
+- SASS
+- HTML & CSS
+- Font Awesome Icons
+- Linters
+- VsCode
+- Gitflows
 
 ## Live Demo
 
