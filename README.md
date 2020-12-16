@@ -21,7 +21,7 @@ Additional description about the project and its features.
 
 ## Live Demo
 
-[Live Link](https://livedemo.com)
+[Live Link](https://chrystalme.github.io/newsweek-web-clone/)
 
 
 ## Getting Started
