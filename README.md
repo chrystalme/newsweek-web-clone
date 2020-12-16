@@ -4,8 +4,9 @@
 
 >
 This project is a responsive clone of newsweek (newsweek.com) website. This was built using sass and Bootstrap. We used Bootstrap for making it responsive i.e. Tablet UI, Desktop UI and Moble UI. Images are made responsive by using cards, flexboxes, Jumbotron, and breakpoints(media queries.
- images/.screen-shot.png
- ![](images/.screen-shot.png)
+ #Screen shot
+ 
+ ![](images/screen-shot.png)
 
 Additional description about the project and its features.
 
@@ -20,7 +21,7 @@ Additional description about the project and its features.
 
 ## Live Demo
 
-[Live Link](https://livedemo.com)
+[Live Link](https://chrystalme.github.io/newsweek-web-clone/)
 
 
 ## Getting Started
@@ -55,19 +56,8 @@ To get a local copy up and running follow these simple example steps.
 
 👤 **Author2**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/linkedinhandle)
-
-## 🤝 Contributing
-
-Contributions, issues, and feature requests are welcome!
-
-Feel free to check the [issues page](issues/).
-
-## Show your support
-
-Give a ⭐️ if you like this project!
+- GitHub: [@sohaibya](https://github.com/sohaibya)
+- Twitter: [Sohaib](https://twitter.com/sohaib)
 
 ## Acknowledgments
 
@@ -76,5 +66,4 @@ Give a ⭐️ if you like this project!
 - etc
 
 ## 📝 License
-
-This project is [MIT](https://mit-license.org/) licensed.
+This project is [MIT](lic.url) licensed.
