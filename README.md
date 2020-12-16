@@ -3,16 +3,20 @@
 # Project Name
 
 > One paragraph statement about the project.
-
-![screenshot](./app_screenshot.png)
+This project is a responsive clone of newsweek (newsweek.com) website. This wis built by using sass and bootsrap an Bootstrap was used for making it responsive i.e. Tablet UI, Desktop UI Moble UI, . Images are made responsive by using cards, flexboxes, Jumbotron, and breakpoints(media queries.
+ images/.screen-shot.png
+ ![](images/.screen-shot.png)
 
 Additional description about the project and its features.
 
 ## Built With
 
-- Major languages
-- Frameworks
-- Technologies used
+- SASS
+- HTML & CSS
+- Font Awesome Icons
+- Linters
+- VsCode
+- Gitflows
 
 ## Live Demo
 
