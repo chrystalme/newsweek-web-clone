@@ -330,12 +330,18 @@ section {
     }
 }
 
-.my__turn-bottom {
-    display: block;
-}
-.my__turn-top {
-    display: none;
-}
+// .my__turn-bottom {
+//     display: block;
+// }
+// .my__turn-top {
+//     display: none;
+// }
+// .more__stories-bottom{
+//     display: none;
+// }
+// .more__stories-top{
+//     display: block;
+// }
 .section__opinion {
     .header__title {
         text-transform: uppercase;
@@ -399,15 +405,21 @@ footer {
             height: 250px;
         }
     }
-    .my__turn-bottom {
-        display: none;
-    }
-    .my__turn-top {
-        display: block;
-    }
+    // .my__turn-bottom {
+    //     display: none;
+    // }
+    // .my__turn-top {
+    //     display: block;
+    // }
+    // .more__stories-top{
+    //     display: none;
+    // }
+    // .more__stories-bottom {
+    //     display: block;
+    // }
     .culture__story {
         img {
-            width: 100%;
+            width: 80%;
         }
         .news__tag {
             background-color: rgb(70, 162, 168);
@@ -424,11 +436,10 @@ footer {
     }
 
     .my__turn-details {
-        text-align: center;
-        width: (100% / 3);
+        text-align: left;
         margin-right: 5px;
         img{
-            width: 150px;
+            width: 120px;
             height: 100px;
         }
            }
