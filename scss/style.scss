@@ -32,8 +32,11 @@ body {
     }
   }
 }
-header {
-  background: red;
+header{
+    
+}
+.top__nav {
+    background: red;
   img {
     width: 120px;
   }
@@ -402,7 +405,19 @@ footer {
   article {
     width: 100%;
   }
-  header {
+  header{
+     
+      .sub__nav a{
+          text-decoration: none;
+          color: black;
+          font-weight: bold;
+          font-size: large;
+          &:hover{
+              text-decoration-color: red;
+          }
+      }
+  }
+  .top__nav {
     .header__login {
       font-size: 20px;
       font-weight: bold;
@@ -456,7 +471,7 @@ footer {
     text-align: left;
     margin-right: 5px;
     img {
-      width: 120px;
+      width: 150px;
       height: 100px;
     }
   }
@@ -486,5 +501,24 @@ footer {
     .sign__up {
         width: 100%;
     }
+    .top__sub-nav {
+        background: red;
+        font-size: larger;
+    }
+    .my__turn-details {
+        img{
+            width: 220px;
+            height: 200px;
+        }
+    }
+    .header__login{
+        color: #f4f5f6;
+        font-weight: bold;
+        font-size: large;
+    }
+    .header_btn {
+        font-size: medium;
+        border-radius: 15px;
+      }
     
 }

@@ -18,34 +18,34 @@ body a:hover {
   text-decoration-color: red;
 }
 
-header {
+.top__nav {
   background: red;
 }
-header img {
+.top__nav img {
   width: 120px;
 }
-header button {
+.top__nav button {
   font-size: 20px;
   font-weight: bold;
   border-radius: 30px;
   text-transform: uppercase;
 }
-header button i {
+.top__nav button i {
   color: black;
 }
-header i {
+.top__nav i {
   font-size: 20px;
   opacity: 0.75;
   color: bisque;
 }
-header a {
+.top__nav a {
   text-decoration: none;
   color: bisque;
 }
-header .header__login {
+.top__nav .header__login {
   display: none;
 }
-header .header_btn {
+.top__nav .header_btn {
   font-size: medium;
 }
 
@@ -385,16 +385,26 @@ footer i {
     width: 100%;
   }
 
-  header .header__login {
+  header .sub__nav a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: large;
+  }
+  header .sub__nav a:hover {
+    text-decoration-color: red;
+  }
+
+  .top__nav .header__login {
     font-size: 20px;
     font-weight: bold;
     display: block;
   }
-  header .header__login:hover {
+  .top__nav .header__login:hover {
     text-decoration: none;
     color: #f4f5f6;
   }
-  header .fa-user {
+  .top__nav .fa-user {
     display: none;
   }
 
@@ -424,7 +434,7 @@ footer i {
     margin-right: 5px;
   }
   .my__turn-details img {
-    width: 120px;
+    width: 150px;
     height: 100px;
   }
 
@@ -453,6 +463,27 @@ footer i {
 @media (min-width: 990px) {
   .sign__up {
     width: 100%;
+  }
+
+  .top__sub-nav {
+    background: red;
+    font-size: larger;
+  }
+
+  .my__turn-details img {
+    width: 220px;
+    height: 200px;
+  }
+
+  .header__login {
+    color: #f4f5f6;
+    font-weight: bold;
+    font-size: large;
+  }
+
+  .header_btn {
+    font-size: medium;
+    border-radius: 15px;
   }
 }
 
