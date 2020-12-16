@@ -450,5 +450,10 @@ footer i {
     left: 50px;
   }
 }
+@media (min-width: 990px) {
+  .sign__up {
+    width: 100%;
+  }
+}
 
 /*# sourceMappingURL=style.css.map */
