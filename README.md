@@ -1,11 +1,10 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Project Name
+# Newsweek-clone
 
-> One paragraph statement about the project.
-This project is a responsive clone of newsweek (newsweek.com) website. This wis built by using sass and bootsrap an Bootstrap was used for making it responsive i.e. Tablet UI, Desktop UI Moble UI, . Images are made responsive by using cards, flexboxes, Jumbotron, and breakpoints(media queries.
+This project is a responsive clone of newsweek (newsweek.com) website. This wis built by using sass and bootsrap an Bootstrap was used for making it responsive i.e. Tablet UI, Desktop UI Moble UI, . Images are made responsive by using cards, flexboxes, Jumbotron, and breakpoints(media queries).
  images/.screen-shot.png
- ![](images/.screen-shot.png)
+ ![](images/.scren-shot.png)
 
 Additional description about the project and its features.
 
@@ -29,35 +28,18 @@ Additional description about the project and its features.
 **Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
 
 
-To get a local copy up and running follow these simple example steps.
-
-### Prerequisites
-
-### Setup
-
-### Install
-
-### Usage
-
-### Run tests
-
-### Deployment
-
-
-
-## Authors
-
+T
 👤 **Author1**
 
 - GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
+- Twitter: [@twitterhandle](https://twitter.com/@afam_chrys)
 - LinkedIn: [LinkedIn](https://linkedin.com/linkedinhandle)
 
 👤 **Author2**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/linkedinhandle)
+- GitHub: [@githubhandle](https://github.com/sohaibya)
+- Twitter: [@twitterhandle](https://twitter.com/sohaib)
+
 
 ## 🤝 Contributing
 
