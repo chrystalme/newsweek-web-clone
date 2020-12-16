@@ -260,7 +260,7 @@ section .news__tag {
   text-decoration: none;
   color: black;
 }
-.section__features .header__features:hover {
+.section__features .header__features a:hover {
   text-decoration-color: red;
   background: #666;
 }
@@ -401,7 +401,7 @@ footer i {
     display: block;
   }
   .top__nav .header__login:hover {
-    text-decoration: none;
+    text-decoration: underline;
     color: #f4f5f6;
   }
   .top__nav .fa-user {

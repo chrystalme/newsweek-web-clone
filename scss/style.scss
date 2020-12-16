@@ -32,9 +32,7 @@ body {
     }
   }
 }
-header{
-    
-}
+
 .top__nav {
     background: red;
   img {
@@ -259,11 +257,12 @@ section {
     a {
       text-decoration: none;
       color: black;
+      &:hover {
+        text-decoration-color: red;
+        background: #666;
+      }
     }
-    &:hover {
-      text-decoration-color: red;
-      background: #666;
-    }
+
   }
   img {
     width: 100%;
@@ -406,7 +405,7 @@ footer {
     width: 100%;
   }
   header{
-     
+
       .sub__nav a{
           text-decoration: none;
           color: black;
@@ -423,7 +422,7 @@ footer {
       font-weight: bold;
       display: block;
       &:hover {
-        text-decoration: none;
+        text-decoration: underline;
         color: #f4f5f6;
       }
     }
@@ -520,5 +519,5 @@ footer {
         font-size: medium;
         border-radius: 15px;
       }
-    
+
 }
