@@ -1,3 +1,6 @@
+
+// @import "node_modules/bootstrap/scss/bootstrap";
+
 @mixin flexContent($direction) {
   display: flex;
   justify-content: center;
@@ -501,20 +504,11 @@ footer {
     img {
       width: 100%;
       height: 250px;
+      animation: feature-img-zoom 0.5s ease-in ;
     }
   }
-  // .my__turn-bottom {
-  //     display: none;
-  // }
-  // .my__turn-top {
-  //     display: block;
-  // }
-  // .more__stories-top{
-  //     display: none;
-  // }
-  // .more__stories-bottom {
-  //     display: block;
-  // }
+  
+  
   .culture__story {
     img {
       width: 90%;
@@ -639,4 +633,14 @@ footer {
       // padding: auto;
     }
   }
+}
+
+@keyframes feature-img-zoom {
+0% {
+    transform: scale(1);
+  }
+100% {
+  transform: scale(1.1);
+}
+  
 }

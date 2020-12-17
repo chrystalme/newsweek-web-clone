@@ -393,6 +393,7 @@ footer i {
   .feature__story img {
     width: 100%;
     height: 250px;
+    animation: feature-img-zoom 0.5s ease-in;
   }
 
   .culture__story img {
@@ -496,6 +497,14 @@ footer i {
     font-size: 13px;
     left: 0;
     bottom: 18px;
+  }
+}
+@keyframes feature-img-zoom {
+  0% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(1.1);
   }
 }
 
