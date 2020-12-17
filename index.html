@@ -11,20 +11,74 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="styles/style.css">
-    <title></title>
+    <title>Newsweek Website Clone</title>
 </head>
 
 <body>
-    <header class="container-fluid d-flex justify-content-between align-content-center pt-2">
-        <div class="header__mobile"><a href="#">
-                <img class="img-fluids " src="images/Newsweek-logo-white.jpg" alt="Newsweek logo">
-            </a></div>
-        <div class="d-flex justify-content-center">
-            <a href="#"><i class="fas fa-user p-2"></i><span class="header__login p-2">Login</span></a>
-            <button class="header_btn btn-warning mb-3 px-3 py-1 border-0" type="search" value="Subscribe"
-                name="subscribe">Subscribe <i class="fas fa-chevron-right"></i></button>
-            <a href="#"><i class="fas fa-bars  p-2"></i></a>
+    <header>
+        <div class="d-lg-none top__nav container-fluid d-flex justify-content-between align-content-center pt-2">
+            <div class="header__mobile"><a href="#">
+                    <img class="img-fluids " src="images/Newsweek-logo-white.jpg" alt="Newsweek logo">
+                </a></div>
+            <div class="d-flex justify-content-center">
+                <a href="#"><i class="fas fa-user p-2"></i><span class="header__login p-2">Login</span></a>
+                <button class="header_btn btn-warning mb-3 px-3 py-1 border-0" type="button" value="Subscribe"
+                    name="subscribe">Subscribe <i class="fas fa-chevron-right"></i></button>
+                <a href="#"><i class="fas fa-bars  p-2"></i></a>
+            </div>
         </div>
+        <div class="container-fluid d-none d-lg-block">
+            <div class="top__sub-nav d-lg-flex flex-row justify-content-between ">
+                <div class="col-3 ml-3 mt-4">
+                    <a class="text-white font-weight-bold " href="#">
+                        <i class="fas fa-cloud-sun-rain"></i>
+                        20&deg; <span>Beirut, LB &gt;</span>
+                    </a>
+                    <p class="text-white font-weight-bold ">Wed, Dec 16, 2020</p>
+
+                </div>
+                <div class="mt-lg-3">
+                    <a href="#">
+                        <img height="50" width="200" src="images/Newsweek-logo-white.jpg" alt="Newsweek logo">
+                    </a>
+                </div>
+                <div class="d-lg-flex justify-content-lg-start align-items-center mr-3">
+                    <a href="#"><span class="header__login p-2">Login</span></a>
+                    <button class="header_btn btn-warning mb-3 mb-lg-0 px-3 py-1 py-lg-2 border-0" type="button"
+                        value="Subscribe" name="subscribe">Subscribe <i class="fas fa-chevron-right"></i></button>
+                </div>
+            </div>
+            <div class="sub__nav border-bottom mb-2">
+                <nav class="nav d-inline-flex justify-content-between py-2">
+                    <a class="px-xl-2 px-lg-0 nav-ph" href="#"><span class="border-right pr-lg-3">U.S</span></a>
+                    <a class="px-xl-2 px-lg-0 nav-ph" href="#"><span class="border-right pr-lg-3">World</span></a>
+                    <a class="px-xl-2 px-lg-0 nav-ph" href="#"><span class="border-right pr-lg-3">Business</span></a>
+                    <a class="px-xl-2 px-lg-0 nav-ph" href="#"><span class="border-right pr-lg-3">Tech &amp;
+                            Science</span></a>
+                    <a class="px-xl-2 px-lg-0 nav-ph" href="#"><span class="border-right pr-lg-3">Culture</span></a>
+                    <a class="px-xl-2 px-lg-0 nav-ph" href="#"><span class="border-right pr-lg-3">Newsgeek</span></a>
+                    <a class="px-xl-2 px-lg-0 nav-ph" href="#"><span class="border-right pr-lg-3">Sport</span></a>
+                    <a class="px-xl-2 px-lg-0 nav-ph" href="#"><span class="border-right pr-lg-3">Health</span></a>
+                    <a class="px-xl-2 px-lg-0 nav-ph" href="#"><span class="border-right pr-lg-3">The Debate</span></a>
+                    <a class="px-xl-2 px-lg-0 nav-ph" href="#"><span class="border-right pr-lg-3">Vantage</span></a>
+                    <a class="px-xl-2 px-lg-0 nav-ph" href="#"><span class="pr-lg-3">Weather</span></a>
+                </nav>
+            </div>
+            <div class="sub__nav border-bottom mb-2">
+                <nav class="nav d-inline-flex justify-content-between py-2">
+                    <a class="px-xl-2 px-lg-0 nav-ph" href="#"><span class="text-secondary pr-lg-3">Trending</span></a>
+                    <a class="px-xl-2 px-lg-0 nav-ph" href="#"><span class="text-secondary pr-lg-3">Joe Biden</span></a>
+                    <a class="px-xl-2 px-lg-0 nav-ph" href="#"><span class="text-secondary pr-lg-3">Donald
+                            Trump</span></a>
+                    <a class="px-xl-2 px-lg-0 nav-ph" href="#"><span
+                            class="text-secondary pr-lg-3">Coronavirus</span></a>
+                    <a class="px-xl-2 px-lg-0 nav-ph" href="#"><span class="text-secondary pr-lg-3">Stimulus
+                            package</span></a>
+                    <a class="px-xl-2 px-lg-0 nav-ph" href="#"><span class="text-secondary pr-lg-3">Vaccine</span></a>
+                </nav>
+            </div>
+        </div>
+
     </header>
     <main class="container-fluid">
         <div class="row">
@@ -60,7 +114,7 @@
                 </article>
                 <section class="col-12 d-none d-md-block section__my-turn mt-4 col-md-7">
                     <div class="container__my-turn">
-                        <div class="section__header mb-3"> MY TURN</div>
+                        <div class="section__header mb-3">MY TURN</div>
                         <div class="d-flex flex-md-row">
                             <div class="my__turn-details mr-4">
                                 <div class="my__turn-photo">
@@ -172,10 +226,9 @@
                     <div>
                         <div class="d-flex align-content-center mt-2 border-bottom pb-3">
                             <div class="">
-                                <a href="#"><img "
-                                            src="
-                                        https://d.newsweek.com/en/full/1685632/first-lady-elect-jill-biden.jpg" alt=" First
-                                            lady-elect Jill Biden"></a>
+                                <a href="#">
+                                    <img src="https://d.newsweek.com/en/full/1685632/first-lady-elect-jill-biden.jpg"
+                                        alt=" First lady-elect Jill Biden"></a>
                             </div>
                             <div class="pl-3">
                                 <h3><a class="text-decoration-none text-dark" href="#">
@@ -503,7 +556,9 @@
                         </div>
                     </div>
                     <div class="d-flex flex-sm-row justify-content-start align-items-center mt-4">
-                        <a href="#"><img src="https://d.newsweek.com/en/full/1681620/rr-reno.png?w=63&h=63&f=1d30cc9b12c1ab70a547a48d6b21fcb5" alt="R.R Reno"></a>
+                        <a href="#"><img
+                                src="https://d.newsweek.com/en/full/1681620/rr-reno.png?w=63&h=63&f=1d30cc9b12c1ab70a547a48d6b21fcb5"
+                                alt="R.R Reno"></a>
                         <div class="debate__details ml-3">
                             <a class="text-decoration-none text-dark" href="#">
                                 Nationalism and Populism Are the GOP's Future
@@ -519,15 +574,15 @@
                             <a class="text-decoration-none text-dark" href="#">
                                 A defense of zombie conservatism
                             </a>
-                            <h5 class="text-secondary text-uppercase">By <strong>Charles C.W COOKE</strong>  </h5>
+                            <h5 class="text-secondary text-uppercase">By <strong>Charles C.W COOKE</strong> </h5>
                         </div>
                         <div class="mb-3">
                             <a href="#"><img class="w-100" src="images/charles-cw-cooke.png" alt="Charles Cooke"></a>
                         </div>
                     </div>
-        
-                </section>        
-        
+
+                </section>
+
                 <section class="col-12 col-md-12 section__opinion border-bottom pb-5">
                     <div class="Debate__header">
                         <div class="header__title mt-5 pb-3">
@@ -544,7 +599,7 @@
                             <h5 class="text-secondary text-uppercase"> By MARK BARDEN</h5>
                         </div>
                     </div>
-        
+
                     <div
                         class="d-flex flex-sm-row justify-content-between justify-content-md-start align-items-center mt-4 border-bottom pb-3">
                         <a href="#"><img class="w-100" src="images/barden-new.png" alt="R.R Reno"></a>
@@ -611,9 +666,9 @@
                         <span class="icon m-2">N</span>
                         Start your day with our five articles.
                     </div>
-        
-                    <form class="d-flex flex-column" action="">
-                        <input class="text-secondary border-0 mb-2 p-2" type="email" name="email" id=""
+
+                    <form class="d-flex flex-column" action="#">
+                        <input class="text-secondary border-0 mb-2 p-2" type="email" name="email" 
                             placeholder="Email Address">
                         <input type="button" class="btn btn-danger" value="Free sign up &gt;">
                     </form>
@@ -622,7 +677,7 @@
 
         </div>
 
-        
+
 
         <section class="d-md-none section__more-stories container">
             <div class="section__header my-3 pb-3 border-bottom">
@@ -922,9 +977,6 @@
             </div>
         </section>
 
-
-        </div>
-
         <section class="jumbotron border sign__up mt-md-4 p-2 d-lg-none">
             <div class="d-flex flex-row justify-content-between align-items-center mb-2">
                 <span class="icon m-2">N</span>
@@ -932,7 +984,7 @@
             </div>
 
             <form class="d-flex flex-column" action="">
-                <input class="text-secondary border-0 mb-2 p-2" type="email" name="email" id=""
+                <input class="text-secondary border-0 mb-2 p-2" type="email" name="email" 
                     placeholder="Email Address">
                 <input type="button" class="btn btn-danger" value="Free sign up &gt;">
             </form>
@@ -946,7 +998,7 @@
             <div class="row row-cols-1 row-cols-md-4 align-items-md-start">
 
                 <div class="col section__features">
-                    <img src="images/newsletter 2.jpg" alt="cover December 18, 2020 issue">
+                    <img src="images/newsletter-2.jpg" alt="cover December 18, 2020 issue">
 
                     <span class="magazine_date">December 18 issue</span>
                     <!-- <section class="section__features container border-bottom pb-3"> -->
@@ -1608,7 +1660,7 @@
                 <div class="jumbotron jumbotron-fluid h-50 d-flex flex-column flex-md-row 
                         justify-content-center align-items-center justify-content-md-between align-items-md-start">
                     <div class="mr-md-3 mt-md-n5">
-                        <img style="width: 150px;" src="images/newsletter 1.jpg" alt="...">
+                        <img style="width: 150px;" src="images/newsletter-1.jpg" alt="...">
                         <img style="width: 150px;" class="news-letter-img" src="images/cover-mag-footer.jpg" alt="...">
                     </div>
 
@@ -1616,7 +1668,7 @@
                         <span>In-depth Stories You Don't See Elsewhere About Topics You Want to Read!</span>
                         <p class="mt-3">All Access + Weekly Delivery.
                             Choose A Membership That's Perfect for You!</p>
-                        <button style="width: 40%;" class="btn btn-danger">Subscribe &gt;</button>
+                        <button style="width: 40%;" class="btn btn-danger" type="button">Subscribe &gt;</button>
                     </div>
                 </div>
             </div>
@@ -1628,29 +1680,30 @@
                 <div class="card">
                     <div class="row no-gutters">
                         <div class="col-md-6 d-flex flex-column justify-content-center align-items-center">
-                            <img src="https://d.newsweek.com/en/full/1541302/starting5-homepage.png" alt="...">                        
-                        </div> 
+                            <img src="https://d.newsweek.com/en/full/1541302/starting5-homepage.png" alt="...">
+                        </div>
                         <div class="card-body col-md-6 text-center ">
                             <span class="my-2">the starting 5</span>
-                            <p>See why nearly a quarter of a million subscribers begin their day with the Starting 5.</p>
+                            <p>See why nearly a quarter of a million subscribers begin their day with the Starting 5.
+                            </p>
                             <form class="input-group d-flex flex-row justify-content-center m-2" action="#">
-                                <input class="border p-2" type="email" name="" id="" placeholder="Email Address">
+                                <input class="border p-2" type="email" name="email" id="email" placeholder="Email Address">
                                 <input class="btn btn-danger" type="button" value="Free Sign Up &gt;">
                             </form>
                         </div>
                     </div>
-                    
-                    
+
+
                 </div>
             </div>
 
         </section>
     </main>
     <footer class="container-fluid mt-5">
-        <div d-flex flex-sm-column>
-            <div>
+        <div class="d-flex flex-column flex-md-row justify-content-between">
+            <div class="d-flex flex-column flex-md-row">
                 <a class="brand" href="#"><img src="images/Newsweek-logo-red.png" alt="Newsweek logo Red"></a>
-                <p class="copyright pt-2">&copy;2020 Newsweek Digital llc</p>
+                <p class="copyright pt-2 mt-md-3">&copy;2020 Newsweek Digital llc</p>
             </div>
             <ul class="social nav ml-n3">
                 <li class="nav-item"><a class="nav-link" href="#"><i
@@ -1667,7 +1720,7 @@
         </div>
         <div class="border-top pt-2">
             <div class="d-flex flex-row ">
-                <label for="" class="mt-2 ml-1 text-secondary"><Strong>Editions:</Strong></label>
+                <label for="edition" class="mt-2 ml-1 text-secondary"><Strong>Editions:</Strong></label>
                 <ul class="nav">
                     <li class="nav-item"><a class="nav-link text-secondary" href="#">U.S. Edition</a></li>
                     <li class="nav-item"><a class="nav-link text-secondary" href="#">日本</a></li>

@@ -11,62 +11,76 @@ body {
   font-size: 13px;
   line-height: 18px;
 }
+
 body a {
   text-decoration: none;
 }
+
 body a:hover {
   text-decoration-color: red;
 }
 
-header {
+.top__nav {
   background: red;
 }
-header img {
+
+.top__nav img {
   width: 120px;
 }
-header button {
+
+.top__nav button {
   font-size: 20px;
   font-weight: bold;
   border-radius: 30px;
   text-transform: uppercase;
 }
-header button i {
+
+.top__nav button i {
   color: black;
 }
-header i {
+
+.top__nav i {
   font-size: 20px;
   opacity: 0.75;
   color: bisque;
 }
-header a {
+
+.top__nav a {
   text-decoration: none;
   color: bisque;
 }
-header .header__login {
+
+.top__nav .header__login {
   display: none;
 }
-header .header_btn {
+
+.top__nav .header_btn {
   font-size: medium;
 }
 
 article {
   width: 100%;
 }
+
 article .article__header {
   text-transform: uppercase;
   font-size: large;
   color: #666;
   font-weight: bolder;
 }
+
 article img {
   width: 100%;
 }
+
 article .top__story {
   position: relative;
 }
+
 article .top__story-photo {
   position: relative;
 }
+
 article .top__story-header a {
   font-size: 20px;
   line-height: 0.2px;
@@ -74,8 +88,9 @@ article .top__story-header a {
   color: black;
   text-decoration: none;
 }
+
 article .news__tag {
-  background-color: #eeeeee;
+  background-color: #eee;
   color: red;
   text-transform: uppercase;
   position: relative;
@@ -89,32 +104,39 @@ article .news__tag {
 section {
   width: 100%;
 }
+
 section .section__header {
   text-transform: uppercase;
   font-size: large;
   color: #666;
   font-weight: bolder;
 }
+
 section img {
   width: 100%;
 }
+
 section .top__story {
   position: relative;
 }
+
 section .top__story-photo {
   position: relative;
 }
+
 section .top__story-header a {
   font-size: 20px;
   font-weight: bold;
   color: black;
   text-decoration: none;
 }
+
 section .top__story-header a:hover {
   text-decoration: red;
 }
+
 section .news__tag {
-  background-color: #eeeeee;
+  background-color: #eee;
   color: red;
   text-transform: uppercase;
   position: relative;
@@ -129,6 +151,7 @@ section .news__tag {
   width: 100%;
   border-bottom: 5px solid #666;
 }
+
 .debate__header .header__title {
   text-transform: uppercase;
   font-size: large;
@@ -166,10 +189,12 @@ section .news__tag {
   width: 100px;
   height: 100px;
 }
+
 .section__more-stories h3 {
   font-size: 20px;
   font-weight: bold;
 }
+
 .section__more-stories h5 {
   font-size: small;
 }
@@ -178,6 +203,7 @@ section .news__tag {
   width: 100%;
   height: 400px;
 }
+
 .my__turn-details .summary {
   tab-size: 40px;
   font-weight: bold;
@@ -194,6 +220,7 @@ section .news__tag {
   bottom: 22px;
   padding: auto;
 }
+
 .culture__story .summary {
   tab-size: 40px;
   font-weight: bold;
@@ -206,6 +233,7 @@ section .news__tag {
   font-size: large;
   text-transform: uppercase;
 }
+
 .sign__up .icon {
   background-color: red;
   width: 50px;
@@ -224,6 +252,7 @@ section .news__tag {
   margin: auto;
   text-transform: uppercase;
 }
+
 .magazine__header .icon {
   background-color: red;
   width: 50px;
@@ -249,6 +278,7 @@ section .news__tag {
 .section__features {
   width: 100%;
 }
+
 .section__features .header__features {
   font-size: large;
   font-weight: bold;
@@ -256,30 +286,37 @@ section .news__tag {
   text-align: center;
   background: #999;
 }
+
 .section__features .header__features a {
   text-decoration: none;
   color: black;
 }
-.section__features .header__features:hover {
+
+.section__features .header__features a:hover {
   text-decoration-color: red;
   background: #666;
 }
+
 .section__features img {
   width: 100%;
   height: 500px;
 }
+
 .section__features span {
   font-size: large;
   font-weight: bold;
   text-transform: uppercase;
 }
+
 .section__features .tag_sub {
   color: white;
   background-color: red;
 }
+
 .section__features .tag_other {
   color: red;
 }
+
 .section__features h5 {
   font-size: medium;
   font-weight: bold;
@@ -290,13 +327,16 @@ section .news__tag {
   font-weight: bold;
   text-transform: uppercase;
 }
+
 .feature__news .tag_sub {
   color: white;
   background-color: red;
 }
+
 .feature__news .tag_other {
   color: red;
 }
+
 .feature__news h5 {
   font-size: medium;
   font-weight: bold;
@@ -305,15 +345,18 @@ section .news__tag {
 .section__us {
   width: 100%;
 }
+
 .section__us .section__us-header {
   color: red;
   text-transform: uppercase;
   font-size: large;
   font-weight: bold;
 }
+
 .section__us h3 {
   line-height: 20px;
 }
+
 .section__us .section__us-sub img {
   width: 100%;
 }
@@ -324,15 +367,18 @@ section .news__tag {
   font-size: large;
   font-weight: bold;
 }
+
 .section__newsletter span {
   color: black;
   text-transform: uppercase;
   font-weight: bold;
   font-size: large;
 }
+
 .section__newsletter img {
   height: 200px;
 }
+
 .section__newsletter p {
   text-align: center;
   font-size: medium;
@@ -351,9 +397,11 @@ footer {
   left: 0;
   font-size: 10px;
 }
+
 footer img {
   width: 250px;
 }
+
 footer .copyright {
   font-size: 12px;
   line-height: 12px;
@@ -361,9 +409,11 @@ footer .copyright {
   color: #666;
   margin-bottom: 12px;
 }
+
 footer .social li {
   margin-right: 0;
 }
+
 footer i {
   margin: 5px;
   font-size: 14px;
@@ -385,16 +435,29 @@ footer i {
     width: 100%;
   }
 
-  header .header__login {
+  header .sub__nav a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: large;
+  }
+
+  header .sub__nav a:hover {
+    text-decoration-color: red;
+  }
+
+  .top__nav .header__login {
     font-size: 20px;
     font-weight: bold;
     display: block;
   }
-  header .header__login:hover {
-    text-decoration: none;
+
+  .top__nav .header__login:hover {
+    text-decoration: underline;
     color: #f4f5f6;
   }
-  header .fa-user {
+
+  .top__nav .fa-user {
     display: none;
   }
 
@@ -406,6 +469,7 @@ footer i {
   .culture__story img {
     width: 80%;
   }
+
   .culture__story .news__tag {
     background-color: #46a2a8;
     color: black;
@@ -423,17 +487,20 @@ footer i {
     text-align: left;
     margin-right: 5px;
   }
+
   .my__turn-details img {
-    width: 120px;
+    width: 150px;
     height: 100px;
   }
 
   .section__features {
     font-size: small;
   }
+
   .section__features img {
     height: 150px;
   }
+
   .section__features span {
     font-size: small;
   }
@@ -450,10 +517,30 @@ footer i {
     left: 50px;
   }
 }
+
 @media (min-width: 990px) {
   .sign__up {
     width: 100%;
   }
-}
 
-/*# sourceMappingURL=style.css.map */
+  .top__sub-nav {
+    background: red;
+    font-size: larger;
+  }
+
+  .my__turn-details img {
+    width: 220px;
+    height: 200px;
+  }
+
+  .header__login {
+    color: #f4f5f6;
+    font-weight: bold;
+    font-size: large;
+  }
+
+  .header_btn {
+    font-size: medium;
+    border-radius: 15px;
+  }
+}
