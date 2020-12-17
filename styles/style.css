@@ -12,13 +12,6 @@ body {
   line-height: 18px;
 }
 
-body a {
-  text-decoration: none;
-}
-
-body a:hover {
-  text-decoration-color: red;
-}
 
 .top__nav {
   background: red;
@@ -26,6 +19,12 @@ body a:hover {
 
 .top__nav img {
   width: 120px;
+}
+
+.top__nav i {
+  font-size: 20px;
+  opacity: 0.75;
+  color: bisque;
 }
 
 .top__nav button {
@@ -39,11 +38,6 @@ body a:hover {
   color: black;
 }
 
-.top__nav i {
-  font-size: 20px;
-  opacity: 0.75;
-  color: bisque;
-}
 
 .top__nav a {
   text-decoration: none;
