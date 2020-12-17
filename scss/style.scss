@@ -517,7 +517,7 @@ footer {
   // }
   .culture__story {
     img {
-      width: 80%;
+      width: 90%;
     }
 
     .news__tag {
@@ -526,10 +526,10 @@ footer {
       text-transform: uppercase;
       position: relative;
       font-weight: bold;
-      line-height: 10px;
-      font-size: 14px;
+      line-height: 8px;
+      font-size: 11px;
       left: 0;
-      bottom: 33px;
+      bottom: 17px;
       // padding: auto;
     }
   }
@@ -571,7 +571,7 @@ footer {
   }
 }
 
-@media (min-width: 990px) {
+@media (min-width: 998px) {
   .sign__up {
     width: 100%;
   }
@@ -583,7 +583,7 @@ footer {
 
   .my__turn-details {
     img {
-      width: 220px;
+      width: 150px;
       height: 200px;
     }
   }
@@ -597,5 +597,46 @@ footer {
   .header_btn {
     font-size: medium;
     border-radius: 15px;
+  }
+
+  .culture__story {
+    img {
+      width: 90%;
+    }
+
+    .news__tag {
+      background-color: rgb(70, 162, 168);
+      color: black;
+      text-transform: uppercase;
+      position: relative;
+      font-weight: bold;
+      line-height: 10px;
+      font-size: 11px;
+      left: 0;
+      bottom: 18px;
+      // padding: auto;
+    }
+  }
+}
+
+@media (min-width:1200px) {
+
+  .culture__story {
+    img {
+      width: 90%;
+    }
+
+    .news__tag {
+      background-color: rgb(70, 162, 168);
+      color: black;
+      text-transform: uppercase;
+      position: relative;
+      font-weight: bold;
+      line-height: 10px;
+      font-size: 13px;
+      left: 0;
+      bottom: 18px;
+      // padding: auto;
+    }
   }
 }
