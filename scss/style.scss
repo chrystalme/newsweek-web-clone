@@ -196,7 +196,8 @@ footer {
   font-family: "Roboto Condensed", sans-serif;
   line-height: 21px;
   font-weight: bold;
-  h5{
+
+  h5 {
     font-size: small;
   }
 }
@@ -214,7 +215,6 @@ footer {
   // font-weight: bold;
   left: 50%;
   top: 50%;
-  transform: translate(-50%, -50%);
 }
 
 .section__debate {
@@ -223,7 +223,7 @@ footer {
 
 .lines {
   position: absolute;
-  border-bottom:1px solid #333;
+  border-bottom: 1px solid #333;
   border-top: 1px solid #333;
   height: 3px;
   width: 95%;
@@ -236,22 +236,6 @@ footer {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-}
-
-
-.vs {
-  text-align: center;
-  position: relative;
-  border-radius: 50%;
-  z-index: 1;
-  width: 30px;
-  height: 30px;
-  font-size: larger;
-  color: #d6d6d6;
-  background-color: black;
-  font-weight: bold;
-  left: 46%;
-  top: 50%;
 }
 
 .vs__bottom {
@@ -450,6 +434,10 @@ footer {
   }
 }
 
+.section__subscribe img {
+  width: 150px;
+}
+
 .section__us {
   width: 100%;
 
@@ -497,9 +485,6 @@ footer {
   position: relative;
   left: -105px;
   top: 20px;
-}
-.section__subscribe img{
-  width: 150px;
 }
 
 @media screen and (min-width: 768px) {
@@ -684,22 +669,21 @@ footer {
   }
 }
 
-@media screen and (max-width: 350px){
-  .section__subscribe img{
+@media screen and (max-width: 350px) {
+  .section__subscribe img {
     width: 120px;
     height: 150px;
   }
 }
 
-@media screen and (max-width: 290px){
-  .section__subscribe img{
+@media screen and (max-width: 290px) {
+  .section__subscribe img {
     width: 100px;
     height: 120px;
-
   }
-  .news-letter-img{
+
+  .news-letter-img {
     position: relative;
     left: -60px;
   }
-
 }

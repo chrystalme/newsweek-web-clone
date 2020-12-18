@@ -15,21 +15,26 @@ body {
 article {
   width: 100%;
 }
+
 article .article__header {
   text-transform: uppercase;
   font-size: large;
   color: #666;
   font-weight: bolder;
 }
+
 article img {
   width: 100%;
 }
+
 article .top__story {
   position: relative;
 }
+
 article .top__story-photo {
   position: relative;
 }
+
 article .top__story-header a {
   font-size: 20px;
   line-height: 0.2px;
@@ -37,8 +42,9 @@ article .top__story-header a {
   color: black;
   text-decoration: none;
 }
+
 article .news__tag {
-  background-color: #eeeeee;
+  background-color: #eee;
   color: red;
   text-transform: uppercase;
   position: relative;
@@ -51,32 +57,39 @@ article .news__tag {
 section {
   width: 100%;
 }
+
 section .section__header {
   text-transform: uppercase;
   font-size: large;
   color: #666;
   font-weight: bolder;
 }
+
 section img {
   width: 100%;
 }
+
 section .top__story {
   position: relative;
 }
+
 section .top__story-photo {
   position: relative;
 }
+
 section .top__story-header a {
   font-size: 20px;
   font-weight: bold;
   color: black;
   text-decoration: none;
 }
+
 section .top__story-header a:hover {
   text-decoration: red;
 }
+
 section .news__tag {
-  background-color: #eeeeee;
+  background-color: #eee;
   color: red;
   text-transform: uppercase;
   position: relative;
@@ -92,9 +105,11 @@ footer {
   left: 0;
   font-size: 10px;
 }
+
 footer img {
   width: 250px;
 }
+
 footer .copyright {
   font-size: 12px;
   line-height: 12px;
@@ -102,9 +117,11 @@ footer .copyright {
   color: #666;
   margin-bottom: 12px;
 }
+
 footer .social li {
   margin-right: 0;
 }
+
 footer i {
   margin: 5px;
   font-size: 14px;
@@ -113,26 +130,32 @@ footer i {
 .top__nav {
   background: red;
 }
+
 .top__nav img {
   width: 120px;
 }
+
 .top__nav i {
   font-size: 20px;
   opacity: 0.75;
   color: bisque;
 }
+
 .top__nav button {
   font-size: 20px;
   font-weight: bold;
   border-radius: 30px;
   text-transform: uppercase;
 }
+
 .top__nav button i {
   color: black;
 }
+
 .top__nav .header__login {
   display: none;
 }
+
 .top__nav .header_btn {
   font-size: medium;
 }
@@ -141,6 +164,7 @@ footer i {
   width: 100%;
   border-bottom: 5px solid #666;
 }
+
 .debate__header .header__title {
   text-transform: uppercase;
   font-size: large;
@@ -154,6 +178,7 @@ footer i {
   line-height: 21px;
   font-weight: bold;
 }
+
 .debate__details h5 {
   font-size: small;
 }
@@ -168,7 +193,6 @@ footer i {
   background-color: black;
   left: 50%;
   top: 50%;
-  transform: translate(-50%, -50%);
 }
 
 .section__debate {
@@ -192,21 +216,6 @@ footer i {
   transform: translate(-50%, -50%);
 }
 
-.vs {
-  text-align: center;
-  position: relative;
-  border-radius: 50%;
-  z-index: 1;
-  width: 30px;
-  height: 30px;
-  font-size: larger;
-  color: #d6d6d6;
-  background-color: black;
-  font-weight: bold;
-  left: 46%;
-  top: 50%;
-}
-
 .vs__bottom {
   border-bottom: 5px solid #666;
 }
@@ -215,10 +224,12 @@ footer i {
   width: 100px;
   height: 100px;
 }
+
 .section__more-stories h3 {
   font-size: 20px;
   font-weight: bold;
 }
+
 .section__more-stories h5 {
   font-size: small;
 }
@@ -227,6 +238,7 @@ footer i {
   width: 100%;
   height: 400px;
 }
+
 .my__turn-details .summary {
   tab-size: 40px;
   font-weight: bold;
@@ -242,6 +254,7 @@ footer i {
   left: 0;
   bottom: 22px;
 }
+
 .culture__story .summary {
   tab-size: 40px;
   font-weight: bold;
@@ -254,6 +267,7 @@ footer i {
   font-size: large;
   text-transform: uppercase;
 }
+
 .sign__up .icon {
   background-color: red;
   width: 50px;
@@ -272,6 +286,7 @@ footer i {
   margin: auto;
   text-transform: uppercase;
 }
+
 .magazine__header .icon {
   background-color: red;
   width: 50px;
@@ -297,6 +312,7 @@ footer i {
 .section__features {
   width: 100%;
 }
+
 .section__features .header__features {
   font-size: large;
   font-weight: bold;
@@ -304,22 +320,27 @@ footer i {
   text-align: center;
   background: #999;
 }
+
 .section__features img {
   width: 100%;
   height: 500px;
 }
+
 .section__features span {
   font-size: large;
   font-weight: bold;
   text-transform: uppercase;
 }
+
 .section__features .tag_sub {
   color: white;
   background-color: red;
 }
+
 .section__features .tag_other {
   color: red;
 }
+
 .section__features h5 {
   font-size: medium;
   font-weight: bold;
@@ -330,13 +351,16 @@ footer i {
   font-weight: bold;
   text-transform: uppercase;
 }
+
 .feature__news .tag_sub {
   color: white;
   background-color: red;
 }
+
 .feature__news .tag_other {
   color: red;
 }
+
 .feature__news h5 {
   font-size: medium;
   font-weight: bold;
@@ -345,38 +369,49 @@ footer i {
 .section__newsletter {
   width: 100%;
 }
+
 .section__newsletter .section_newsletter-header {
   color: red;
   text-transform: uppercase;
   font-size: large;
   font-weight: bold;
 }
+
 .section__newsletter span {
   color: black;
   text-transform: uppercase;
   font-weight: bold;
   font-size: large;
 }
+
 .section__newsletter img {
   height: 200px;
 }
+
 .section__newsletter p {
   text-align: center;
   font-size: medium;
 }
 
+.section__subscribe img {
+  width: 150px;
+}
+
 .section__us {
   width: 100%;
 }
+
 .section__us .section__us-header {
   color: red;
   text-transform: uppercase;
   font-size: large;
   font-weight: bold;
 }
+
 .section__us h3 {
   line-height: 20px;
 }
+
 .section__us .section__us-sub img {
   width: 100%;
 }
@@ -395,10 +430,6 @@ footer i {
   top: 20px;
 }
 
-.section__subscribe img {
-  width: 150px;
-}
-
 @media screen and (min-width: 768px) {
   section {
     width: 100%;
@@ -414,6 +445,7 @@ footer i {
     font-weight: bold;
     font-size: large;
   }
+
   header .sub__nav a:hover {
     text-decoration-color: red;
   }
@@ -423,10 +455,12 @@ footer i {
     font-weight: bold;
     display: block;
   }
+
   .top__nav .header__login:hover {
     text-decoration: underline;
     color: #f4f5f6;
   }
+
   .top__nav .fa-user {
     display: none;
   }
@@ -439,6 +473,7 @@ footer i {
   .culture__story img {
     width: 90%;
   }
+
   .culture__story .news__tag {
     background-color: #46a2a8;
     color: black;
@@ -455,6 +490,7 @@ footer i {
     text-align: left;
     margin-right: 5px;
   }
+
   .my__turn-details img {
     width: 150px;
     height: 100px;
@@ -463,9 +499,11 @@ footer i {
   .section__features {
     font-size: small;
   }
+
   .section__features img {
     height: 150px;
   }
+
   .section__features span {
     font-size: small;
   }
@@ -482,6 +520,7 @@ footer i {
     left: 50px;
   }
 }
+
 @media (min-width: 998px) {
   .sign__up {
     width: 100%;
@@ -511,6 +550,7 @@ footer i {
   .culture__story img {
     width: 90%;
   }
+
   .culture__story .news__tag {
     background-color: #46a2a8;
     color: black;
@@ -523,10 +563,12 @@ footer i {
     bottom: 18px;
   }
 }
+
 @media (min-width: 1200px) {
   .culture__story img {
     width: 90%;
   }
+
   .culture__story .news__tag {
     background-color: #46a2a8;
     color: black;
@@ -539,12 +581,14 @@ footer i {
     bottom: 18px;
   }
 }
+
 @media screen and (max-width: 350px) {
   .section__subscribe img {
     width: 120px;
     height: 150px;
   }
 }
+
 @media screen and (max-width: 290px) {
   .section__subscribe img {
     width: 100px;
@@ -556,5 +600,3 @@ footer i {
     left: -60px;
   }
 }
-
-/*# sourceMappingURL=style.css.map */
