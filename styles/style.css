@@ -158,19 +158,6 @@ footer i {
   font-size: small;
 }
 
-.vs {
-  text-align: center;
-  position: absolute;
-  border-radius: 50%;
-  width: 25px;
-  height: 25px;
-  color: #d6d6d6;
-  background-color: black;
-  left: 50%;
-  top: 50%;
-  transform: translate(-50%, -50%);
-}
-
 .section__debate {
   position: relative;
 }
@@ -205,6 +192,7 @@ footer i {
   font-weight: bold;
   left: 46%;
   top: 50%;
+  transform: translate(-50%, -50%);
 }
 
 .vs__bottom {
@@ -399,6 +387,13 @@ footer i {
   width: 150px;
 }
 
+.subscribe-details {
+  height: 400px;
+}
+.subscribe-details button {
+  width: 40%;
+}
+
 @media screen and (min-width: 768px) {
   section {
     width: 100%;
@@ -480,6 +475,24 @@ footer i {
     position: relative;
     top: -180px;
     left: 50px;
+  }
+
+  .subscribe-details {
+    height: 300px;
+    background: #e2e2e2;
+  }
+  .subscribe-details button {
+    width: 40%;
+  }
+  .subscribe-details img {
+    width: 150px;
+  }
+
+  .newsletter-card {
+    height: 300px;
+  }
+  .newsletter-card img {
+    height: 300px;
   }
 }
 @media (min-width: 998px) {
