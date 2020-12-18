@@ -196,11 +196,11 @@ footer {
   font-family: "Roboto Condensed", sans-serif;
   line-height: 21px;
   font-weight: bold;
-  h5{
+
+  h5 {
     font-size: small;
   }
 }
-
 
 .section__debate {
   position: relative;
@@ -208,7 +208,7 @@ footer {
 
 .lines {
   position: absolute;
-  border-bottom:1px solid #333;
+  border-bottom: 1px solid #333;
   border-top: 1px solid #333;
   height: 3px;
   width: 95%;
@@ -434,6 +434,10 @@ footer {
     text-align: center;
     font-size: medium;
   }
+}
+
+.section__subscribe img {
+  width: 150px;
 }
 
 .section__us {
@@ -683,22 +687,21 @@ footer {
   }
 }
 
-@media screen and (max-width: 350px){
-  .section__subscribe img{
+@media screen and (max-width: 350px) {
+  .section__subscribe img {
     width: 120px;
     height: 150px;
   }
 }
 
-@media screen and (max-width: 290px){
-  .section__subscribe img{
+@media screen and (max-width: 290px) {
+  .section__subscribe img {
     width: 100px;
     height: 120px;
-
   }
-  .news-letter-img{
+
+  .news-letter-img {
     position: relative;
     left: -60px;
   }
-
 }

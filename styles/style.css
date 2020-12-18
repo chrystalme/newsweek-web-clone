@@ -353,6 +353,10 @@ footer i {
   font-size: medium;
 }
 
+.section__subscribe img {
+  width: 150px;
+}
+
 .section__us {
   width: 100%;
 }
