@@ -34,7 +34,7 @@ T
 👤 **Author1**
 
 - GitHub: [@chrystalme](https://github.com/chrystalme)
-- Twitter: [@afam_chrys](https://twitter.com/afam_chrys)
+- Twitter: [@afam_ifeanyi](https://twitter.com/afam_ifeanyi)
 - LinkedIn: [Afam ifeanyi(chrys) Malieze](https://linkedin.com/in/afam-ifeanyi-chrys-malieze-63876576)
 
 👤 **Author2**
@@ -49,4 +49,4 @@ T
 - etc
 
 ## 📝 License
-This project is [MIT](lic.url) licensed.
+This project is [MIT](https://mit-license.org) licensed.
