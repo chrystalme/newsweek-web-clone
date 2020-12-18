@@ -395,6 +395,10 @@ footer i {
   top: 20px;
 }
 
+.section__subscribe img {
+  width: 150px;
+}
+
 @media screen and (min-width: 768px) {
   section {
     width: 100%;
@@ -533,6 +537,23 @@ footer i {
     font-size: 13px;
     left: 0;
     bottom: 18px;
+  }
+}
+@media screen and (max-width: 350px) {
+  .section__subscribe img {
+    width: 120px;
+    height: 150px;
+  }
+}
+@media screen and (max-width: 290px) {
+  .section__subscribe img {
+    width: 100px;
+    height: 120px;
+  }
+
+  .news-letter-img {
+    position: relative;
+    left: -60px;
   }
 }
 
