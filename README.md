@@ -7,11 +7,9 @@ This project is a responsive clone of newsweek (newsweek.com) website. This was 
  #Screen shot
  
  ![](images/screen-shot.png)
-<<<<<<< HEAD
 
 Additional description about the project and its features.
-=======
->>>>>>> 56296217eac2e1cd832288f6f42e9f37666ce475
+
 
 ## Built With
 
