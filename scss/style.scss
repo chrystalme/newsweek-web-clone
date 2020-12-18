@@ -223,7 +223,6 @@ footer {
   transform: translate(-50%, -50%);
 }
 
-
 .vs {
   text-align: center;
   position: relative;
@@ -488,11 +487,10 @@ footer {
   left: -105px;
   top: 20px;
 }
-.section__subscribe img{
-  width: 150px;
-}
+
 .subscribe-details {
-  height: 400px; 
+  height: 400px;
+
   button {
     width: 40%;
   }
@@ -600,18 +598,21 @@ footer {
   }
 
   .subscribe-details {
-    height: 300px; 
+    height: 300px;
     background: rgb(226, 226, 226);
+
     button {
       width: 40%;
     }
+
     img {
       width: 150px;
     }
   }
 
   .newsletter-card {
-    height: 300px; 
+    height: 300px;
+
     img {
       height: 300px;
     }
