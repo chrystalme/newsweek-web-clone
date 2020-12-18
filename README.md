@@ -3,8 +3,7 @@
 # Newsweek website clone using Bootstrap and SASS.
 
 >
-This project is a responsive clone of newsweek (newsweek.com) website. This was built using sass and Bootstrap. We used Bootstrap for making it responsive i.e. Tablet UI, Desktop UI and Moble UI. Images are made responsive by using cards, flexboxes, Jumbotron, and breakpoints(media queries.
- #Screen shot
+This project is a responsive clone of newsweek (newsweek.com) website. This was built using sass and Bootstrap. We used Bootstrap for making it responsive i.e. Tablet UI, Desktop UI and Moble UI. Images are made responsive by using cards, flexboxes, Jumbotron, and breakpoints(media queries).
  
  ![](images/screen-shot.png)
 
